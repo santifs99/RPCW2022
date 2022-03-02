@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <meta>
+        <titulo>El Señor de los Anillos</titulo>
+        <data>2022-02-25</data>
+        <autor>
+            Santiago Fidalgo Sallés (E10270)
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        WebSite sobre El Señor de los anillos
+    </resumo>
+    <deliverables>
+        <file href="intro.html" />
+        <file href="personajes.html" />
+        <file href="estilo.css" />
+        <file href="images/aragorn.jpg" />
+        <file href="images/arwen.jpg" />
+        <file href="images/frodo.jpg" />
+        <file href="images/gandalf.jpg" />
+        <file href="images/gimli.png" />
+        <file href="images/gimlihd.jpg" />
+        <file href="images/gollum.jpg" />
+        <file href="images/Portadas.jpg" />
+        <file href="images/sam.jpg" />
+        <file href="images/saruman.jpg" />
+        <file href="images/sauron.jpg" />
+        <file href="images/Trailer1.mp4" />
+    </deliverables>
+
+</manifest>
