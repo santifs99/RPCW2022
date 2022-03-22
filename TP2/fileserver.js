@@ -10,16 +10,16 @@ myserver = http.createServer( function(req,res) {
     var partes = miUrl.split("/")   //lo separamos  cada vez que haya una /
     
     switch(partes[1]) {
-        case 'filmes':
+        case 'peliculas':
             if(partes.length==2){
-                fichero='filmes.html'
+                fichero='peliculas.html'
             }else{
                 fichero=partes[2]+".html"
             }
             break;
-        case 'atores':
+        case 'actores':
             if(partes.length==2){
-                fichero='atores.html'
+                fichero='actores.html'
             }else{
                 fichero=partes[2]+".html"
             }
