@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC2. </titulo>
+        <data>2022-03-21</data>
+        <autor>
+            Santiago Fidalgo Sallés (E10270)
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Se trata de construir un FileServer que crea HTML a partir de la siguiente informacion</p>
+            <xref>
+                <url>https://epl.di.uminho.pt/~jcr/AULAS/ATP2021/datasets/cinemaATP.json</url>
+                <texto> datos de peliculas </texto>
+            </xref></p>
+        <p> Servidor que devuelve una pagina web con links para listar alumnos, instrumentos y cursos. </p>
+        <p> REST API se encuentra en la misma maquina pero responde a un puerto distinto</p>
+        <p> Se va a mostrar toda la información en diferentes tablas</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>db.json</url>
+            <texto>Dataset con informacion de alumnos, instrumentos y cursos</texto>
+        </resultado>
+        <resultado>
+            <url>fileServer.js</url>
+            <texto>File server</texto>
+        </resultado>
+        <resultado>
+            <url>HTML</url>
+            <texto>Paginas generadas por el conversor</texto>
+        </resultado>
+    </resultados>
+
+</doc>
